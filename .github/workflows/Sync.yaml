@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天執行一次
+    - cron: '0 18 * * *'  # 每天執行一次
   workflow_dispatch:    # 允許手動觸發
   
 env:
